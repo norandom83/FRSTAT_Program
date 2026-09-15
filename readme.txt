@@ -14,7 +14,7 @@ simulation_betweencointegration.r: R script for the simulations in Section D.4, 
 
 Run
 
-Open Main_FRSTAT_vF.m in MATLAB and select Run. A full run generates Figures 1–3, displays Tables 1–3 and Supplementary Table 1, and prints the associated numerical diagnostics.
+Open Main_FRSTAT_vF.m in MATLAB and select Run. A full run generates Figures 1–3, displays Tables 1–3 and Supplementary Table 3, and prints the associated numerical diagnostics.
 
 After a full run, individual Figure or Table sections at the end of the main program can be run separately using the variables retained in the workspace.
 
