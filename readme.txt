@@ -1,20 +1,24 @@
 @ FRSTAT REPLICATION CODE
 
 Requirements
-  MATLAB R2024a or later
+
+MATLAB R2024a or later
+R for the supplementary finite-sample simulations
 
 Files
-  Main_FRSTAT_vF.m   Main program
-  FRSTAT_Data.xlsx   Processed analysis inputs
-  functions\          Functions called by the main program
+
+Main_FRSTAT_vF.m: Main MATLAB program
+FRSTAT_Data.xlsx: Processed analysis inputs
+functions/: Functions called by the main MATLAB program
+simulation_betweencointegration.r: R script for the simulations in Section D.4, “Finite-sample performance,” of the Supplementary Material
 
 Run
-  Open Main_FRSTAT_vF.m in MATLAB and select Run. A full run opens
-  Figures 1--3, displays Tables 1--3 and Supplement Table 1, and prints
-  the reported diagnostics. 
 
-  After a full run, any named Figure or Table section at the end of the
-  main program can be run separately using the variables in the workspace.
+Open Main_FRSTAT_vF.m in MATLAB and select Run. A full run generates Figures 1–3, displays Tables 1–3 and Supplementary Table 1, and prints the associated numerical diagnostics.
+
+After a full run, individual Figure or Table sections at the end of the main program can be run separately using the variables retained in the workspace.
+
+Run simulation_betweencointegration.r in R to reproduce the finite-sample simulations in Section D.4 of the Supplementary Material.
 
 Data
   Sample_Info              Sample years and grid-cell counts
